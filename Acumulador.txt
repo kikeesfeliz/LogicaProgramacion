@@ -1,0 +1,6 @@
+Un acumulador es una variable numérica que permite ir acumulando operaciones. Me permite ir haciendo operaciones parciales. Un acumulador:
+
+Se inicializa a un valor inicial según la operación que se va a acumular: a 0 si es una suma o a 1 si es un producto.
+Se acumula un valor intermedio.
+
+  acum <- acum + num;
