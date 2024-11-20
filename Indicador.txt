@@ -1,0 +1,8 @@
+Un indicador es una variable lógico, que usamos para recordar o indicar algún suceso. Un indicador:
+Se inicializa a un valor lógico que indica que el suceso no ha ocurrido.
+
+indicador <- Falso
+
+Cuando ocurre el suceso que queremos recordar cambiamos su valor.
+
+indicador <- Verdadero
