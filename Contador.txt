@@ -1,0 +1,7 @@
+Un contador es una variable entera que la utilizamos para contar cuando ocurre un suceso. Un contador:
+Se inicializa a un valor inicial.
+
+  cont <- 0;
+Se incrementa, cuando ocurre el suceso que estamos contado se le suma 1.
+
+  cont <- cont + 1;
