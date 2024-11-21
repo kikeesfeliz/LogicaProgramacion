@@ -1,0 +1,1 @@
+Las estructuras de repetición son también llamadas estructuras cíclicas, iterativas o de bucles. Estas estructuras permiten ejecutar un conjunto de instrucciones de manera repetida (o cíclica), mientras que una expresión lógica evalúa que se cumpla, es decir, que sea verdadera.
