@@ -1,0 +1,12 @@
+2.1) Diseña un algoritmo que capturando un número indique si es múltiplo de 4.
+
+Algoritmo multiplode4
+	Definir a Como Entero;
+		Escribir "Ingresa un numero multiplo de 4: "; //Entrada de un numero multiplo de 4
+		Leer a;
+			Si a mod 4 = 0 entonces; //Processo comparar el resido del numero ingresado con 0 
+				Escribir "El numero que ingres� es multiplo de 4" //Salida Verdadera si es multiplo de 4
+			SiNo
+				Escribir "El numero que ingres� NO es mmultiplo de 4" //Salida Falsa si es multiplo de 4
+			FinSi
+FinAlgoritmo

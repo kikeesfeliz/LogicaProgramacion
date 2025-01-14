@@ -1,0 +1,14 @@
+2.2) Algoritmo que pida 2 números y los escriba en orden de mayor a menor.
+
+Algoritmo mayormenor
+	Definir a, b, c Como Entero
+	Escribir "Ingrese un numero: " //Entrada de las variables a y b
+	Leer a;
+	Escribir "Ingrese otro numero: "
+	leer b;
+	Si a>b entonces; //Proceso comparar a mayor que b, escribir primero el numero mayor y despues el numero menor
+		Escribir "El numero mas grande es " a, " y el mas chico es " b; //Salida Verdadera a > b
+	Sino
+		Escribir "El numero mas grande es " b, " y el mas chico es " a; //Salida Falsa a > b
+	FinSi
+FinAlgoritmo

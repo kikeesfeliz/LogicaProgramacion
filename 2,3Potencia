@@ -1,0 +1,25 @@
+2.3) Realiza un algoritmo que calcule la potencia, para ello pide por teclado la base y el
+exponente. Pueden ocurrir tres cosas:
+**El exponente sea positivo, sólo tienes que imprimir la potencia.
+**El exponente sea 0, el resultado es 1.
+** El exponente sea negativo, el resultado es 1/potencia con el exponente positivo.
+
+Algoritmo potencia
+	Definir base, exponente, resultado Como Entero
+	Escribir 'Ingrese numero base: ' // Entrada de valores base y exponente
+	Leer base
+	Escribir 'Ingrese el exponente: '
+	Leer exponente
+	Si exponente>=1 Entonces //Proceso de selectivas anidadas para evaluar el resultado
+		Escribir base, '^', exponente
+	SiNo
+		Si exponente==0 Entonces
+			Escribir 'El resultado es 1'
+		SiNo
+			Si exponente<0 Entonces
+			
+			FinSi
+			Escribir 'El resutaldo es 1/', base, '^', ((exponente)*(-1))
+		FinSi
+	FinSi //Mostrar la salida evaluando los exponentes para imprimir el resultado correcto
+FinAlgoritmo
