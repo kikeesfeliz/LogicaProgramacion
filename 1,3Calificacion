@@ -1,0 +1,25 @@
+1.3) Un alumno desea saber cuál será su calificación final en la materia de Algoritmos.
+Dicha calificación se compone de los siguientes porcentajes:
+55% del promedio de sus tres calificaciones parciales.
+30% de la calificación del examen final.
+15% de la calificación de un trabajo final.
+
+Algoritmo calificacion
+	Definir p1, p2, p3, ef, tf, propar, porcentpropar, porcentef, porcenttf, calfinal como real; //Creaci�n de valores de entrada y valores de operaci�n
+	Escribir "Calificaci�n de el primer parcial: " //Entrada de valores de parciales, examen final y trabajo"
+	leer p1;
+	Escribir "Calificaci�n del segundo parcial: "
+	leer p2;
+	Escribir "Calificaci�n del tercer parcial: "
+	leer p3;
+	Escribir "Calificaci�n del examen final: "
+	leer ef;
+	Escribir "Calificaci�n del trabajo final: "
+	leer tf;
+	propar <-(p1+p2+p3)/3 //Proceso de operaciones para calcular el promedio de parciales y el promedio de la calificacion final
+	porcentpropar <- (propar*55)/100
+	porcentef <- (ef*30)/100
+	procenttf <- (tf*15)/100
+	calfinal <- (procenttf+porcentpropar+porcentef)/3
+	Escribir "Su calificaci�n final es de: ", calfinal, " %" //Salida de valor de la calificaci�n final
+FinAlgoritmo

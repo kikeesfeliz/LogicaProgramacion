@@ -1,0 +1,12 @@
+1.4) Dada una cantidad en pesos, obtener la equivalencia en dólares, asumiendo que
+la unidad cambiaría es un dato desconocido.
+
+Algoritmo dolares
+	Definir a, b, c como real; //Creaci�n de variables de entrada y de operaci�n
+	Escribir "Cantidad de pesos MXN: " //Entrada de  cantidad de pesos MXN y Tipo de cambio
+	leer a;
+	Escribir "Tipo de cambio del dolar de hoy: "
+	leer b;
+	c <- a/b //Proceso de Operaci�n
+	Escribir "Equivalencia en dolares: ", c; //Salida de la equivalencia en dolares
+FinAlgoritmo

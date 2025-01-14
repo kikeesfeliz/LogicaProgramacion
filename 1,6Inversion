@@ -1,0 +1,21 @@
+1.6) Tres personas deciden invertir su dinero para fundar una empresa. Cada una de
+ellas invierte una cantidad distinta. Obtener el porcentaje que cada uno invierte
+con respecto a la cantidad total invertida.
+
+Algoritmo inversion
+	Definir a, b, c, inv, pa, pb, pc Como Real; //Creaci�n de variables de entrada y de operaci�n
+	Escribir "Cantindad invertida del primer socio: " //Entrada de inversi�n inicial por socio
+	leer a;
+	Escribir "Cantidad invertida del segundo socio: "
+	leer b;
+	Escribir "Cantidad invertida del tercer socio: "
+	leer c;
+	inv <- a+b+c //Proceso de operacion para conocer el procentaje invertido y el total de la inversi�n inicial
+	pa <- (a*100)/inv
+	pb <- (b*100)/inv
+	pc <- (c*100)/inv
+	Escribir "Porcentaje del primer socio: ", pa, " %" //Salida del porcentaje invertido por socio e inversi�n inicial
+	Escribir "Porcentaje del segundo socio: ", pb, " %"
+	Escribir "Porcentaje del segundo socio: ", pc, " %"
+	Escribir "Total de Inversi�n Inicial: ", inv, " MXN"
+FinAlgoritmo

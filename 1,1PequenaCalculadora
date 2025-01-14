@@ -1,0 +1,19 @@
+1.1) Diseñar una pequeña calculadora que pida 2 números y muestre el resultado de
+la suma, resta, multiplicación y división. (Supondremos para el caso que ambos
+números que entrarán son distintos de 0)
+
+Algoritmo pequena_calculadora
+	Definir a, b, sum, rest, multi, divi Como real;
+	Escribir "Ingresa valor de a ";
+	leer a;
+	Escribir "Ingresa valor de b ";
+	leer b
+		sum <- a+b
+		rest <- a-b
+		multi <- a*b
+		divi <- a/b
+			escribir "a + b = ", sum;
+			escribir "a - b = ", rest;
+			escribir "a * b = ", multi;
+			escribir "a / b = ", divi;
+FinAlgoritmo

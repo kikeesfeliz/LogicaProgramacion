@@ -1,0 +1,10 @@
+1.2) El dueño de una tienda compra un artículo a un precio determinado. Obtener el
+precio en que lo debe vender para obtener una ganancia del 30%.
+
+Algoritmo ganancia
+	Definir a, b como Real; //Creaci�n de valores a para el precio de compra y valor de la operacion para las ganancias.
+	Escribir "Ingresar el precio de compra del articulo a vender: "
+	Leer a; //Entrada precio de compra "a"
+		b <- (a*.30)+a // Proceso de operaci�n para sacar el 30% de ganancia
+	Escribir "Si usted desea obtener el 30% de ganancia, ustede debera vender el articula a: ", b; //Salida del valor de la operaci�n
+FinAlgoritmo
