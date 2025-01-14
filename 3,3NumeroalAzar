@@ -1,0 +1,36 @@
+3.3) Escriba un programa que nos proporcione N números al azar:
+Escribir de cada numero si es PAR o IMPAR
+Obtener la suma de los números pares
+Obtener la suma de los números Impares
+Obtener la cantidad de números pares y de números impares. 
+**  
+ n=azar(10); 
+la función azar (valor) retorna un número entero aleatorio en el rango de 1 hasta el valor máximo que se le indica.
+
+ Algoritmo numeroalazar
+	Definir a, b, contazar, acumpar, contpar, contimpar, acumimpar Como Entero
+	Escribir 'Determine cuantos numeros al azar proporcionar� el programa'
+	Leer a //Entrada de la cantidad de veces que el programa arrojar� un numero al azar
+	contazar <- 0
+	contpar <- 0
+	acumpar <- 0
+	contimpar <- 0
+	acumimpar <- 0
+	Repetir //Proceso de emitir N numeros al azar y determinar si son impares o impares, sumar sus cantidades y resultados
+		b <- azar(a)
+		contazar <- contazar+1
+		Si (b MOD 2)=0 Entonces
+			Escribir b, ' es par'
+			contpar <- contpar+b
+			acumpar <- acumpar+1
+		SiNo
+			Escribir b, ' es impar'
+			contimpar <- contimpar+b
+			acumimpar <- acumimpar+1
+		FinSi
+	Hasta Que contazar==a
+	Escribir 'la suma de los n�meros pares es: ', contpar //salida de datos determinados
+	Escribir 'la suma de los n�meros impares es: ', contimpar
+	Escribir 'la cantidad de n�meros pares es: ', acumpar
+	Escribir 'la cantidad de los numeros impares: ', acumimpar
+FinAlgoritmo

@@ -1,0 +1,14 @@
+3.2) Crear un programa que lea 10 números y muestre los pares e impares.
+
+Algoritmo pareseimpares
+	Definir a, b Como Entero
+	Escribir 'Programa que lee los siguientes 10 numeros del numero ingresado y muestra cuales son pares e impares.'
+	Leer a //Entrada de un numero donde empezara el programa a leer los siguientes 10 numeros
+	Para b<-a Hasta a+10 Con Paso 1 Hacer //Proceso donde se evaluaran los siguientes 10 numeros y arrojara que numero es para e impar
+		Si (b MOD 2)=0 Entonces
+			Escribir b, ' es par'
+		SiNo
+			Escribir b, ' es impar' //Salida del valor contado y evaluado"
+		FinSi
+	FinPara
+FinAlgoritmo

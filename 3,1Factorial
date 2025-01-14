@@ -1,0 +1,15 @@
+3.1) Escriba un programa que determine el factorial de numero N, recuerde que el factorial es
+1x2x3x4 ….. xN
+
+Algoritmo factorial
+	Definir a, acum, cont Como Entero
+	Escribir 'Ingrese un numero para determinar su factorial: '
+	Leer a //Dato de entrada numero a determinar su factorial a!
+	acum <- 1
+	cont <- 0
+	Mientras cont<a Hacer //Proceso contar del 0 al numero a determinar, multiplicando la acumulacion por el conteo 
+		cont <- cont+1
+		acum <- acum*cont
+	FinMientras
+	Escribir acum //Salida mostrar el resultado del facturial ingresado
+FinAlgoritmo

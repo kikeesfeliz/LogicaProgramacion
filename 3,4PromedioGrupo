@@ -1,0 +1,19 @@
+3.4).- Pida las calificaciones de los estudiantes hasta que se escriba un numero negativo, después obtendremos y mostraremos el promedio general del grupo.
+
+Algoritmo promediogrupo
+	Definir cal, cont, acum, prom Como Real
+	Escribir 'Ingrese las calificaciones de los estudiantes, cuando desee conocer el promedio general del grupo escriba un numero negativo'
+	cont <- 0
+	acum <- 0
+	Repetir 
+		Leer cal //Entrada de los datos a evaluar para calcular el promedio
+		Si cal>0 Entonces
+			cont <- cont+1
+			acum <- acum+cal
+		SiNo
+			cal <- -1
+		FinSi
+	Hasta Que cal<0
+	prom <- acum/cont //Proceso calculando el promedio de los datos ingresados
+	Escribir 'El promedio general del grupo es: ', prom //Salida del promedio calculado
+FinAlgoritmo
